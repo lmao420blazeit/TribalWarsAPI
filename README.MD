@@ -14,7 +14,8 @@ Standalone application to fetch daily data from tribalwars public API and dump i
 *Fetch_from_api* is the main flow. The argument which must be passed is the url list for each region. It generates a list of World type objects for each server in the region. For each server, it sequentially fetches the data for each dimension: player_data, ally_data, defense_data, attack_data, village_data.
 
 
-'''python
+"""python
+
 def fetch_from_api(tribalwars_server_list) -> None:
     """
     Starts the subflows. Main flow.
@@ -41,6 +42,6 @@ def fetch_from_api(tribalwars_server_list) -> None:
     fetch_defense_data(obj_list)
     fetch_attack_data(obj_list)
     fetch_village_data(obj_list)
-'''
+"""
 
 ![Example Image](assets/overview_api.png)
