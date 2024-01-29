@@ -44,7 +44,7 @@ def fetch_from_api(tribalwars_server_list) -> None:
     fetch_village_data(obj_list)
 ```
 
-![Example Image](assets/overview_api.png)
+!(assets/overview_api.png)
 
 ### Example flow run
 
